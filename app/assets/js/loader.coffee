@@ -13,7 +13,7 @@ loadJsSource = ->
     dataType: 'text'
     success:  dfd.resolve
     error:    dfd.reject
-  dfd.promise();
+  dfd.promise()
 
 $.when(
   loadCoffeeSource(), loadJsSource()

@@ -44,10 +44,10 @@ And then, access http://localhost:8080/ from your browser.
 ├── app
 │   ├── assets
 │   │   ├── css
-│   │   │   ├── bootstrap-responsive.min.css
-│   │   │   └── bootstrap.min.css
+│   │   │   └── prettify.css
 │   │   └── js
-│   │       ├── jquery.min.js
+│   │       ├── loader.coffee
+│   │       ├── prettify.min.js
 │   │       └── snippet.coffee
 │   ├── conf
 │   │   ├── Module.java
@@ -58,7 +58,8 @@ And then, access http://localhost:8080/ from your browser.
 │   │   ├── application.conf
 │   │   └── messages.properties
 │   ├── controllers
-│   │   └── RootController.java
+│   │   ├── RootController.java
+│   │   └── WebJarAssetsController.java
 │   ├── models
 │   │   └── Person.java
 │   └── views
@@ -68,6 +69,7 @@ And then, access http://localhost:8080/ from your browser.
 │           ├── defaultLayout.ftl.html
 │           ├── footer.ftl.html
 │           └── header.ftl.html
-└── pom.xml
+├── pom.xml
+└── screenshot.png
 ```
 

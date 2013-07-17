@@ -10,7 +10,7 @@ class Person
 bob = new Person('Bob')
 bob.sayHello()
 
-# Class Inheritancea
+# Class Inheritance
 ###
 class Programmer extends Person
   hack: (it) -> console.log "Hack the #{it}!"
