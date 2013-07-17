@@ -1,0 +1,12 @@
+.metadata
+.settings
+.classpath
+.project
+.idea
+*.iml
+*.ipr
+*.iws
+*.log
+target/
+*.swp
+

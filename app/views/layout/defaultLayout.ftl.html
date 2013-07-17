@@ -1,0 +1,28 @@
+<#macro myLayout>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CoffeeScript, wro4j and Ninja Framework</title>
+<link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="/assets/css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="/assets/css/prettify.css" rel="stylesheet">
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/js/prettify.min.js"></script>
+<script type="text/javascript" src="/wro/snippet.js"></script>
+<script type="text/javascript" src="/wro/loader.js"></script>
+<style type="text/css">body { padding-top: 60px; }</style>
+</head>
+<body>
+  <div class="container">
+    <#include "header.ftl.html"/>
+    <#nested/>
+    <#include "footer.ftl.html"/>
+  </div>
+</body>
+</html>
+</#macro>
+

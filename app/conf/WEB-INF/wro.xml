@@ -1,0 +1,8 @@
+<groups xmlns="http://www.isdc.ro/wro">
+    <group name="snippet">
+        <js>classpath:/assets/js/snippet.coffee</js>
+    </group>
+    <group name="loader">
+        <js>classpath:/assets/js/loader.coffee</js>
+    </group>
+</groups>
