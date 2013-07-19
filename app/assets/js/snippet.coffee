@@ -27,3 +27,15 @@ echo "foo"
 twice = (f, v) -> f(v) for [1..2]
 twice(echo, "bar")
 
+# Fat allow
+class FatAllowExample
+  name: 'baz'
+  f1: -> 
+    -> console.log @name
+  f2: -> 
+    => console.log @name
+
+e = new FatAllowExample()
+e.f1().apply()
+e.f2().apply()
+
